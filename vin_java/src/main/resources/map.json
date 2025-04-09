@@ -1,0 +1,183 @@
+{
+  "commercialVehicleType": {
+    "vin": "VIN"
+  },
+  "activeSafetySystemSafeDistanceType": {
+    "acc": "AdaptiveCruiseControl"
+  },
+  "activeSafetySystem911Type": {
+    "911": "911"
+  },
+  "activeSafetySystemForwardCollisonType": {
+    "cib": "CIB",
+    "fcw": "ForwardCollisionWarning",
+    "dbs": "DynamicBrakeSupport",
+    "paeb": "PedestrianAutomaticEmergencyBraking"
+  },
+  "activeSafetySystemLaneAndSideType": {
+    "bsw": "BlindSpotIntervention",
+    "ldm": "LaneDepartureWarning",
+    "lka": "LaneKeepSystem",
+    "bsi": "BlindSpotMon",
+    "laneCenteringAssist": "LaneCenteringAssistance"
+  },
+  "activeSafetySystemLightingType": {
+    "drl": "DaytimeRunningLight",
+    "lightSource": "LowerBeamHeadlampLightSource",
+    "beamSwitching": "SemiautomaticHeadlampBeamSwitching",
+    "drivingBeam": "AdaptiveHeadlights"
+  },
+  "activeSafetySystemParkingType": {
+    "backupCamera": "RearVisibilitySystem",
+    "parkingAssist": "ParkAssist",
+    "crossTrafficAlert": "RearCrossTrafficAlert",
+    "emergencyBraking": "RearAutomaticEmergencyBraking"
+  },
+  "activeSafetySystemType": {
+    "abs": "ABS",
+    "esc": "ESC",
+    "tc": "TractionControl",
+    "tpms": "TPMS",
+    "assNote": "ActiveSafetySysNote",
+    "ars": "AutoReverseSystem",
+    "apas": "AutomaticPedestrianAlertingSound",
+    "edr": "EDR",
+    "ki": "KeylessIgnition",
+    "saeAutomationFrom": "SAEAutomationLevel",
+    "saeAutomationTo": "SAEAutomationLevel_to"
+  },
+  "engineType": {
+    "cylinders": "EngineCylinders",
+    "displacementCc": "DisplacementCC",
+    "displacementCi": "DisplacementCI",
+    "displacementL": "DisplacementL",
+    "strokeCycles": "EngineCycles",
+    "model": "EngineModel",
+    "power": "EngineKW",
+    "primaryFuelType": "FuelTypePrimary",
+    "secondaryFuelType": "FuelTypeSecondary",
+    "valveTrain": "ValveTrainDesign",
+    "engineConfiguration": "EngineConfiguration",
+    "fuelDelivery": "FuelInjectionType",
+    "engineBrakeFrom": "EngineHP",
+    "engineBrakeTo": "EngineHP_to",
+    "coolingType": "CoolingType",
+    "electrificationLevel": "ElectrificationLevel",
+    "engineOther": "OtherEngineInfo",
+    "turbo": "Turbo",
+    "topSpeed": "TopSpeedMPH",
+    "manufacturer": "EngineManufacturer"
+  },
+  "exteriorBodyType": {
+    "class": "BodyClass",
+    "doors": "Doors",
+    "windows": "Windows",
+    "wheelBase": "WheelBaseType",
+    "trackWidth": "TrackWidth"
+  },
+  "exteriorBusType": {
+    "length": "BusLength",
+    "floorConfiguration": "BusFloorConfigType",
+    "type": "BusType"
+  },
+  "exteriorDimensionType": {
+    "grossVehicleWeightRatingFrom": "GVWR",
+    "grossVehicleWeightRatingTo": "GVWR_to",
+    "wheelBaseFrom": "WheelBaseShort",
+    "wheelBaseTo": "WheelBaseLong",
+    "grossComboWeightRatingFrom": "GCWR",
+    "grossComboWeightRatingTo": "GCWR_to"
+  },
+  "exteriorMotorcycleType": {
+    "customType": "CustomMotorcycleType",
+    "suspensionType": "MotorcycleSuspensionType",
+    "chassisType": "MotorcycleChassisType",
+    "otherInfo": "OtherMotorcycleInfo",
+    "fuelTankType": "FuelTankType",
+    "fuelTankMaterial": "FuelTankMaterial",
+    "cbs": "CombinedBrakingSystem"
+  },
+  "exteriorTrailerType": {
+    "connectionType": "TrailerConnectionType",
+    "bodyType": "TrailerHeight",
+    "otherInfo": "OtherTrailerInfo"
+  },
+  "exteriorTruckType": {
+    "bedType": "BedType",
+    "cabType": "BodyCabType"
+  },
+  "exteriorWheelType": {
+    "wheelSizeFront": "WheelSizeFront",
+    "wheelSizeRear": "WheelSizeRear"
+  },
+  "generalType": {
+    "market": "DestinationMarket",
+    "make": "Make",
+    "manufacturer": "Manufacturer",
+    "model": "Model",
+    "modelYear": "ModelYear",
+    "plantCity": "PlantCity",
+    "series": "Series",
+    "trim": "Trim",
+    "vehicleType": "VehicleType",
+    "plantCountry": "PlantCountry",
+    "plantCountryName": "PlantCountry",
+    "plantState": "PlantState",
+    "trim2": "Trim2",
+    "series2": "Series2",
+    "note": "Note",
+    "basePrice": "BasePrice",
+    "nonLandUse": "NonLandUse"
+  },
+  "interiorSeatType": {
+    "numberSeats": "Seats",
+    "numberRows": "SeatRows"
+  },
+  "interiorType": {
+    "entertainmentSystem": "EntertainmentSystem",
+    "steeringLocation": "SteeringLocation"
+  },
+  "mechanicalBatteryChargerType": {
+    "level": "ChargerLevel",
+    "power": "ChargerPowerKW"
+  },
+  "mechanicalBatteryType": {
+    "otherInfo": "BatteryInfo",
+    "cellsPerModule": "BatteryCells",
+    "type": "BatteryType",
+    "modulesPerPack": "BatteryModules",
+    "packsPerVehicle": "BatteryPacks",
+    "currentFrom": "BatteryA",
+    "currentTo": "BatteryA_to",
+    "energyFrom": "BatteryKWh",
+    "energyTo": "BatteryKWh_to",
+    "voltageFrom": "BatteryV",
+    "voltageTo": "BatteryV_to",
+    "evDriveUnit": "EVDriveUnit"
+  },
+  "mechanicalBrakeType": {
+    "systemType": "BrakeSystemType",
+    "systemDescription": "BrakeSystemDesc"
+  },
+  "mechanicalDriveTrainType": {
+    "type": "DriveType",
+    "axles": "Axles",
+    "axlesDescription": "AxleConfiguration"
+  },
+  "mechanicalTransmissionType": {
+    "style": "TransmissionStyle",
+    "speeds": "TransmissionSpeeds"
+  },
+  "passiveSafetySystemAirBagLocation": {
+    "front": "AirBagLocFront",
+    "side": "AirBagLocSide",
+    "seatCushion": "AirBagLocSeatCushion",
+    "knee": "AirBagLocKnee",
+    "curtain": "AirBagLocSeatCushion"
+  },
+  "passiveSafetySystemType": {
+    "pretensioner": "Pretensioner",
+    "seatBeltType": "SeatBeltsAll",
+    "otherInfo": "OtherRestraintSystemInfo"
+  }
+}
